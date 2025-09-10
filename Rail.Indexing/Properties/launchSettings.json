@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Uz.Railways": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

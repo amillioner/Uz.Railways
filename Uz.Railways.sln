@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36301.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rail.Indexing", "Rail.Indexing\Rail.Indexing.csproj", "{187ED888-5D57-9AEF-5067-94B80468900D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rail-cli", "rail-cli\rail-cli.csproj", "{72105E53-7449-9C47-BC86-32C38C2CDC63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rail.Indexing.Tests", "Rail.Indexing.Tests\Rail.Indexing.Tests.csproj", "{BFC2012D-B6AC-757D-75C9-93A01DC423AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rail.Api", "Rail.Api\Rail.Api.csproj", "{9587EF14-610B-D2EC-C839-36EBB6BB1943}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{187ED888-5D57-9AEF-5067-94B80468900D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{187ED888-5D57-9AEF-5067-94B80468900D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{187ED888-5D57-9AEF-5067-94B80468900D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{187ED888-5D57-9AEF-5067-94B80468900D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72105E53-7449-9C47-BC86-32C38C2CDC63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72105E53-7449-9C47-BC86-32C38C2CDC63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72105E53-7449-9C47-BC86-32C38C2CDC63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72105E53-7449-9C47-BC86-32C38C2CDC63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFC2012D-B6AC-757D-75C9-93A01DC423AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFC2012D-B6AC-757D-75C9-93A01DC423AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFC2012D-B6AC-757D-75C9-93A01DC423AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFC2012D-B6AC-757D-75C9-93A01DC423AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9587EF14-610B-D2EC-C839-36EBB6BB1943}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9587EF14-610B-D2EC-C839-36EBB6BB1943}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9587EF14-610B-D2EC-C839-36EBB6BB1943}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9587EF14-610B-D2EC-C839-36EBB6BB1943}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9DC9FFDD-E81D-47B7-956F-1EEB87E453C0}
+	EndGlobalSection
+EndGlobal

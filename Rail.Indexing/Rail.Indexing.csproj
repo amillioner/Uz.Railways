@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<LangVersion>latest</LangVersion>
+		<Nullable>enable</Nullable>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageId>Rail.Indexing</PackageId>
+		<Version>1.0.0</Version>
+		<Authors>Rail Systems</Authors>
+		<Description>Library for working with train indexes - parsing, validation and normalization</Description>
+		<PackageTags>railway;train;index;parsing;validation</PackageTags>
+	</PropertyGroup>
+
+</Project>

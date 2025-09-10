@@ -1,13 +1,13 @@
-using System.ComponentModel.DataAnnotations;
 using FluentValidation;
 using Microsoft.AspNetCore.Mvc;
-using Rail.Api.Models;
-using Rail.Api.Services;
+using Rail.Data.Models;
+using Rail.Services.Services;
+using System.ComponentModel.DataAnnotations;
 
 namespace Rail.Api.Controllers
 {
     [ApiController]
-    [Route("api/v1")]
+    [Route("api/v1/trains")]
     [Produces("application/json")]
     public class TrainsController : ControllerBase
     {

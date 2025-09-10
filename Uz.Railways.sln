@@ -11,6 +11,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rail.Indexing.Tests", "Rail
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rail.Api", "Rail.Api\Rail.Api.csproj", "{9587EF14-610B-D2EC-C839-36EBB6BB1943}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rail.RabbitMQ", "Rail.RabbitMQ\Rail.RabbitMQ.csproj", "{61572E65-B164-419B-9877-368B433262C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rail.Data", "Rail.Data\Rail.Data.csproj", "{735884AB-7B41-4757-B22D-1BC79E723BBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rail.Services", "Rail.Services\Rail.Services.csproj", "{A09A85A9-338A-4FBF-B22C-04022715C703}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rail.Authentication", "Rail.Authentication\Rail.Authentication.csproj", "{361AA9B4-EFAF-4C10-92A8-974A50077DC9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +41,22 @@ Global
 		{9587EF14-610B-D2EC-C839-36EBB6BB1943}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9587EF14-610B-D2EC-C839-36EBB6BB1943}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9587EF14-610B-D2EC-C839-36EBB6BB1943}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61572E65-B164-419B-9877-368B433262C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61572E65-B164-419B-9877-368B433262C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61572E65-B164-419B-9877-368B433262C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61572E65-B164-419B-9877-368B433262C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{735884AB-7B41-4757-B22D-1BC79E723BBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{735884AB-7B41-4757-B22D-1BC79E723BBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{735884AB-7B41-4757-B22D-1BC79E723BBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{735884AB-7B41-4757-B22D-1BC79E723BBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A09A85A9-338A-4FBF-B22C-04022715C703}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A09A85A9-338A-4FBF-B22C-04022715C703}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A09A85A9-338A-4FBF-B22C-04022715C703}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A09A85A9-338A-4FBF-B22C-04022715C703}.Release|Any CPU.Build.0 = Release|Any CPU
+		{361AA9B4-EFAF-4C10-92A8-974A50077DC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{361AA9B4-EFAF-4C10-92A8-974A50077DC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{361AA9B4-EFAF-4C10-92A8-974A50077DC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{361AA9B4-EFAF-4C10-92A8-974A50077DC9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

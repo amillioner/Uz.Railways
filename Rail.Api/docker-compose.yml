@@ -1,0 +1,56 @@
+version: '3.8'
+
+services:
+  api:
+    build:
+      context: ..
+      dockerfile: Rail.Api/Dockerfile
+    ports:
+      - "8080:8080"
+      - "8081:8081"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ConnectionStrings__DefaultConnection=Host=postgres;Database=raildb;Username=postgres;Password=railpass123
+      - ASPNETCORE_URLS=http://+:8080;https://+:8081
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - rail-network
+
+  postgres:
+    image: postgres:16
+    environment:
+      - POSTGRES_DB=raildb
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=railpass123
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - rail-network
+
+  pgadmin:
+    image: dpage/pgadmin4
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=admin@railapi.com
+      - PGADMIN_DEFAULT_PASSWORD=admin123
+    ports:
+      - "5050:80"
+    depends_on:
+      - postgres
+    networks:
+      - rail-network
+
+volumes:
+  postgres-data:
+
+networks:
+  rail-network:
+    driver: bridge

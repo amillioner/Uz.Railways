@@ -12,6 +12,7 @@
 
 	<ItemGroup>
 		<PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.0" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.0">
 			<PrivateAssets>all</PrivateAssets>
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -34,7 +35,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <ProjectReference Include="..\Rail.Authentication\Rail.Authentication.csproj" />
 	  <ProjectReference Include="..\Rail.Indexing\Rail.Indexing.csproj" />
+	  <ProjectReference Include="..\Rail.RabbitMQ\Rail.RabbitMQ.csproj" />
+	  <ProjectReference Include="..\Rail.Services\Rail.Services.csproj" />
 	</ItemGroup>
 
 </Project>

@@ -1,11 +1,11 @@
-using System.Collections.Concurrent;
-using System.Globalization;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Rail.Data.Data;
 using Rail.Data.Models;
 using Rail.Indexing;
+using System.Collections.Concurrent;
+using System.Globalization;
 
 namespace Rail.Services.Services
 {

@@ -1,6 +1,6 @@
-﻿using System;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Rail.Data.Models;
+using System;
 
 namespace Rail.Data.Data
 {

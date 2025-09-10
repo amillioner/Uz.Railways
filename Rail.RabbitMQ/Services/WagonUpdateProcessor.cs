@@ -1,10 +1,10 @@
-﻿using System.ComponentModel.DataAnnotations;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Extensions.Logging;
 using Rail.Data.Data;
 using Rail.Data.Models;
 using Rail.Indexing;
+using System.ComponentModel.DataAnnotations;
 
 namespace Rail.RabbitMQ.Services;
 
@@ -40,7 +40,7 @@ public class WagonUpdateProcessor : IWagonUpdateProcessor
 
         return exists;
     }
-    
+
     public async Task<MessageProcessingResult> ProcessWagonUpdateAsync(
         WagonUpdateMessage message,
         CancellationToken cancellationToken = default)

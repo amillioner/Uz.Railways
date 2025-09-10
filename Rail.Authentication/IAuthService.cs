@@ -1,5 +1,5 @@
-﻿using System.Threading.Tasks;
-using Rail.Data.Models;
+﻿using Rail.Data.Models;
+using System.Threading.Tasks;
 
 namespace Rail.Authentication;
 

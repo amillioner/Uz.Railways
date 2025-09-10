@@ -1,7 +1,7 @@
-using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Rail.Data.Data;
 using Rail.RabbitMQ.Services;
+using System.Diagnostics;
 
 namespace Rail.Api.Controllers;
 

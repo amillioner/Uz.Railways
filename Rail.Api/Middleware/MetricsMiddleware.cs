@@ -1,5 +1,5 @@
-﻿using System.Diagnostics;
-using Rail.Authentication;
+﻿using Rail.Authentication;
+using System.Diagnostics;
 
 namespace Rail.Api.Middleware;
 

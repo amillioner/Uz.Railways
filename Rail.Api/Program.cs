@@ -8,7 +8,6 @@ using Rail.Api.Middleware;
 using Rail.Authentication;
 using Rail.Data.Data;
 using Rail.Data.Models;
-using Rail.Indexing;
 using Rail.RabbitMQ.Services;
 using Rail.Services.Services;
 using Rail.Services.Validators;
